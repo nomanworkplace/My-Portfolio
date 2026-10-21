@@ -11,7 +11,7 @@
   const updateThemeLabel = () => {
     const dark = root.dataset.theme === "dark";
     themeButton.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
-    document.querySelector('meta[name="theme-color"]').content = dark ? "#141b19" : "#f6f7f3";
+    document.querySelector('meta[name="theme-color"]').content = dark ? "#101a16" : "#f5f6f1";
   };
   updateThemeLabel();
   themeButton.addEventListener("click", () => {
