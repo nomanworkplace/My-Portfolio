@@ -88,6 +88,7 @@ h1 { max-width: 720px; margin-bottom: 18px; font-size: clamp(46px, 6.3vw, 76px);
 .fact-number { color: var(--green); font-family: var(--mono); font-size: 11px; }
 .section-heading-row { display: flex; align-items: end; justify-content: space-between; gap: 32px; margin-bottom: 45px; }
 .section-note { max-width: 330px; margin: 0 0 4px; color: var(--muted); font-size: 14px; }
+.education-list { display: grid; gap: 14px; }
 .education-card { display: grid; grid-template-columns: 72px 1fr auto; align-items: center; gap: 26px; padding: 30px; border: 1px solid var(--line); background: var(--surface); box-shadow: var(--shadow); }
 .education-icon { width: 64px; height: 64px; display: grid; place-items: center; border-radius: 50%; background: var(--green-tint); color: var(--green); font-family: Georgia, serif; font-size: 28px; }
 .education-main .eyebrow { margin-bottom: 6px; font-size: 9px; }
